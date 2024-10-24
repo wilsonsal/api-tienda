@@ -12,8 +12,8 @@ const db_pool = require('./BD_mysql');
 app.use(cors());
 app.use(express.json());
 
-app.listen(3001, async () => {
-    console.log("Servidor corriendo en el puerto 3001");
+app.listen(4000, async () => {
+    console.log("Servidor corriendo en el puerto 4000");
 });
 
 app.get("/productos/list/:tipo", async (req, res) => {
